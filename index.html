@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<title>Portafolio de Programacion Web</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="js/eventos.js"></script>
+</head>
+<body background="img/imgb.jpg">
+	<header>
+	 	<div class="page-header">
+	  		<h1>Portafolio de Programacion web <br>
+	  	<small>Proyectos Realizados durante el curso</small>
+    		 </h1>
+		</div>	
+		<nav>
+			<ul>
+				<li>
+					<button class="btn btn-home" id="btnDatos">
+						<span class="glyphicon glyphicon-home" ></span>  Mis Datos Generales
+					</button>
+				</li>
+				<li>
+					<button class="btn btn-success" id="btnHTML">
+						<span class="glyphicon glyphicon-list-alt" ></span>  HTML
+					</button>
+				</li>
+				<li>
+					<button class="btn btn-primary" id="btnCSS">
+						<span class="glyphicon glyphicon-pencil" ></span>  CSS
+					</button>
+				</li>
+				<li>
+					<button class="btn btn-warning" id="btnJS">
+						<span class="glyphicon glyphicon-wrench" ></span>  JavaScript
+					</button>
+				</li>
+				<li>
+					<button class="btn btn-danger" id="btnPHP">
+						<span class="glyphicon glyphicon-warning-sign" ></span>  PHP
+					</button>
+				</li>
+			</ul>
+		</nav>
+		<select name="menuCelular" id="menuCelular" onchange="InicioApp()">
+			<option value="btnDatos">Mis Datos Generales</option>
+			<option value="btnHTML" >HTML</option>
+			<option value="btnCSS">CSS</option>
+			<option value="btnJS">JavaScript</option>
+			<option value="btnPHP">PHP</option>
+		</select>
+		<img src="img/logoITC.png" alt="" id="logo">
+	</header>
+	<section>
+		<article id="artDatosG">
+			<h1><small>Datos Generales</small></h1>
+			<img src="img/fotomia.jpg" alt="">
+			<div>
+				<span>Nombre:</span>Carlos Alfonso Mascareño Zazueta. <p> <p>
+				<span>Fecha de Nacimiento:</span>16 de Febrero de 1994. <p>
+				<span>Lugar de Nacimiento</span>:Guasave,Sin. <p>
+				<span>Edad:</span>21 años. <p>
+				<span>Universidad:</span>Instituto Tecnologico de Culiacan. <p>
+				<span>Carrera:</span>Ing. Tecnologias de la Informacion y Comunicaciones <p>
+				<span>No. de Control:</span>12170514. <p>
+				<span>Materia:</span>Programacion Web. <p>
+				<span>Profesor:</span>Martin Leonardo Nevarez Rivas <p>
+				<span>Hora:</span>10-11 <p>
+			</div>
+		</article>
+		<article class="artHTML">
+			<h1><small>HTML <p> Practica 1</small></h1>
+			<img src="img/1pw.png" alt="" id="pw1">
+			<div><span id="descripcion">Descripcion:</span>Esta Es la Primera Pagina web que Realizamos <br>
+										   <span>en el Curso, en esta pagina de ejemplo el profesor nos enseño<br></span>
+										   <span>las etiquetas basicas de HTML, como son el head, title, body,<br></span>
+										   <span>como usar etiquetas para titulos de encabezados como <br></span>
+										   <span>el h1, h2, h3,etc.tambien aprendimos a crear listas <br></span>
+										   <span>con las etiquetas li y ul. aprendimos a insertar una <br></span>
+										   <span>imagen en una pagina web con laetiqueta img y a crear <br></span>
+										   <span> texto aleatorio con Lorem ipsum. </span>
+			</div>
+		</article>
+		<article class="artHTML">
+			<h1><small>Practica 2</small></h1>
+			<img src="img/2pw.jpg" alt="">
+			<div><span id="descripcion">Descripcion:</span>Esta Es la segunda Pagina web que Realizamos <br>
+										   <span>En el curso, Aqui aplicamos los conocimientos ya obtenidos <br> </span>
+										   <span>en la clase anterior, aplicando listas y las etiquetas basicas <br></span>
+										   <span>de HTML, el aprendizaje nuevo obtenido al realizar esta pagina <br></span>
+										   <span>es el de poder enlazar parrafos en la misma pagina mediante la <br></span>
+										   <span>etiqueta a usando href.</span>
+				
+			</div>
+		</article>
+		<article class="artHTML">
+			<h1><small>Practica 3</small></h1>
+			<img src="img/3pw.jpg" alt="">
+			<div><span id="descripcion">Descripcion:</span>Este el tercer ejercicio en HTML que <br>
+										  <span>realizamos en clases, en este ejercicio aprendimos lo que son las <br> </span>
+										  <span>tablas,para que sirven y como se usan. Los principales  <br></span>
+										  <span>usos de las tablas son basicamente para expresar  <br> </span>
+										  <span>cantidades numericas: montos de dinero, estadisticas, etc. <br></span>
+										  <span>Para crear tablas en HTML se usa la etiqueta table que <br></span>
+										  <span>contiene las etiquetas td para crear columnas, tr para <br></span>
+										  <span>crear renglones y th para los encabezados de la tabla.</span>
+	
+										   
+				
+			</div>
+		</article>
+		<article class="artHTML">
+			<h1><small>Practica 4</small></h1>
+			<img src="img/4pw.jpg" alt="">
+			<div><span id="descripcion">Descripcion:</span>En el cuarto ejercicio de HTML que realizamos, <br>
+											<span> aprendimos a usar lo que son <br></span>
+											<span>los formularios, que son muy utiles a la hora <br></span>
+											<span>de capturar informacion, tiene dos tipos de <br></span>
+											<span>entrada que son por get y por post. <br></span>
+											<span>Es combeniente combinar su uso con tablas. <br></span>
+											<span>En este ejercicio estamos pidiendo datos  como <br></span>
+											<span>nombre, clave  y genero, en este ultimo aprendimos <br></span>
+											<span> a usar la etiqueta select que tiene la etiqueta option.</span>
+				
+			</div>
+		</article>
+		<article class="artCSS">
+			<h1><small>CSS <p> Ejercicio 1 CSS y HTML5</small></h1>
+			<img src="img/css1.jpg" alt="">
+			<div><span id="descripcion">Descripcion:</span>En esta Ejercicio comenzamos a usar lo que es <br>
+											<span> La version mas reciente de HTML que es HTML5 <br></span>
+											<span>como tambien comenzamos a usar las hojas de estilo<br></span>
+											<span>en cascada(CSS3) para poder darle un toque mas atractivo<br></span>
+											<span>a las paginas web que desarrollemos.<br></span>
+											<span>Para que una pagina sea HTML5 tiene que contener el <br></span>
+											<span><!DOCTYPE html> al principio y una etiqueta meta con <br></span>
+											<span>charset="UTF-8". Aprendimos a ligar una hoja <br></span>
+											<span>de estilos a nuestro documento HTML, como tambien a usar <br></span>
+											<span>los comandos basicos de CSS para darle estilos a nuestra web</span>
+				
+			</div>
+		</article>
+		<article class="artCSS">
+			<h1><small>ejercicio 2 Audio y Video</small></h1>
+			<img src="img/css2.jpg" alt="">
+			<div><span id="descripcion">Descripcion:</span>Con esta ejercicio aprendimos a como agregar <br>
+											<span>Multimedia a nuestra pagina web, para agregar <br></span>
+											<span>Audio y video a nuestra pagina utilizamos las <br></span>
+											<span>etiquetas audio y video seguido de la etiqueta<br></span>
+											<span>source en donde pondremos la direccion de donde se<br></span>
+											<span>encuentre el audio o video.<br></span>
+											<span>Se uso el CSS para darle estilo a la ventana de<br></span>
+											<span>reproduccion del video y se agrego un pequeño script <br></span>
+											<span>para darle un efecto de reflejo a la ventana de<br></span>
+											<span>reproduccion.</span>
+				
+			</div>
+		</article>
+		<article class="artCSS">
+			<h1><small>Practica 1 CSS</small></h1>
+			<img src="img/css3.jpg" alt="">
+			<div><span id="descripcion">Descripcion:</span>Esta es la primer practica CSS completa <br>
+											<span>que realizamos en clase, el profesor nos  <br></span>
+											<span>proporciono un conjunto de imagenes, las cuales <br></span>
+											<span>tenian que ser acomodadas usando solo la hoja de <br></span>
+											<span>estilos, si faltaban elementos como un boton se <br></span>
+											<span>tenia que crear usando HTML y CSS.<br></span>
+											<span>Con esta practica empezamos a dominar lo que son<br></span>
+											<span>el Margin, padding, vertical, display, text-aling <br></span>
+											<span>conjunto de comandos CSS importantes para el desarrollo<br></span>
+											<span>de la practica. <br>	</span>
+											<span>Tambien utilizamos un conjunto de iconos llamados icomoon</span>
+				
+			</div>
+		</article>
+		<article class="artCSS">
+			<h1><small>Practica 2 CSS</small></h1>
+			<img src="img/css4.jpg" alt="">
+			<div><span id="descripcion">Descripcion:</span>Este ejercicio el profesor no los proporciono <br>
+											<span>para practicar mas el CSS. <br></span>
+											<span>De igual manera que el ejercicio anterior nos <br></span>
+											<span>proporciono un conjunto de imagenes en donde teniamos <br></span>
+											<span>que acomodarlas de la manera que quedara igual a la pagina<br></span>
+											<span>origina, solo usando CSS con el fin de irnos<br></span>
+											<span>preparando para el examen.<br></span>
+											<span>en esta practica usamos una herramienta de colores  <br></span>
+											<span>para saber el valor hexadecimal de los colores que hay<br></span>
+											<span>en las imagenes, para poder hacer una pagina mas <br>	</span>
+											<span>Exacta</span>
+				
+			</div>
+		</article>
+		<article class="artCSS">
+			<h1><small>Practica 3 CSS</small></h1>
+			<img src="img/css5.jpg" alt="">
+			<div><span id="descripcion">Descripcion:</span>Esta pagina fue la ultima practica de CSS que<br>
+											<span>Realizamos antes de que aplicaran el examen de HTML y CSS. <br></span>
+											<span>Con este Ejercicio minimamente ya tendriamos que tener<br></span>
+											<span>Dominado las Etiqutas HTML5 junto con los comandos <br></span>
+											<span>de estilos basicos de CSS3<br></span>
+											
+				
+			</div>
+		</article>
+		<article class="artJS">
+			<h1><small>JavaScript <p> Practica 1</small></h1>
+			<img src="img/js1.jpg" alt="">
+			<div><span id="descripcion">Descripcion:</span>Primera practica de JavaScript<br>
+											<span>Aqui es donde empezamos a programar en el <br></span>
+											<span>curso, algo sencillo desde el inicio en donde <br></span>
+											<span>el programa de la pagina te manda un mensaje o alert <br></span>
+											<span>y pide que ingreses tu nombre y luego te saludo con<br></span>
+											<span>un mensaje que dice hola seguido de tu nombre</span>
+				
+			</div>
+		</article>
+ 		<article class="artJS">
+			<h1><small>Practica 1 <p> Calculadora</small></h1>
+			<img src="img/js2.jpg" alt="">
+			<div><span id="descripcion">Descripcion:</span>Primera practica de JavaScript<br>
+											<span>En esta practica se crea una calculadora basica <br></span>
+											<span> con los operandos de suma, resta, division,  <br></span>
+											<span>multiplicacion e igual y un boton que borra los  <br></span>
+											<span>campos. En esta ejercicio se programa usando una<br></span>
+											<span>Etiqueta Script dentro del documento HTML y usando<br></span>
+											<span> el lenguaje de programacion JavaScript.</span>
+				
+			</div>
+		</article>
+			<article class="artJS">
+			<h1><small>Practica 1<p> Calculadora 2</small></h1>
+			<img src="img/js3.jpg" alt="">
+			<div><span id="descripcion">Descripcion:</span>Primera practica de JavaScript<br>
+											<span>En esta practica se se modifica la calculadora  <br></span>
+											<span> anterior agregando otra forma de programar  <br></span>
+											<span>la calculadora. Tambien se programo en una etiqueta  <br></span>
+											<span>Script dentro del Documento HTML.</span>
+				
+			</div>
+		</article>
+		<article class="artJS">
+			<h1><small>Practica 2 <p> JQuery</small></h1>
+			<img src="img/js4.jpg" alt="">
+			<div><span id="descripcion">Descripcion:</span>Esta fue la primera practica en la que<br>
+											<span>se usa JQuery para el manejo de Eventos <br></span>
+											<span> ahora no dentro de una etiqueta script en el <br></span>
+											<span>documento HTML, ahora se crea un archivo JavaScript  <br></span>
+											<span>por separado con la extension js.<br></span>
+											<span>En este sencillo ejercicio se muestra como se <br> </span>
+											<span>despliega un alert mediante el uso de JQuery.</span>
+
+				
+			</div>
+		</article>
+		<article class="artJS">
+			<h1><small>Practica 3 <p> Validacion</small></h1>
+			<img src="img/js5.jpg" alt="">
+			<div><span id="descripcion">Descripcion:</span>Con esta practica comenzamos a usar<br>
+											<span>Bien el Lenguaje JavaScript para Validar a un<br></span>
+											<span>usuario estaticamente. <br></span>
+											<span>Tambien usamos JQuery para los eventos del sistema<br></span>
+											<span>que muestra unos buenos efectos haciendolo mas<br></span>
+											<span>Atractivo. Y para diseño Comenzamos a usar un <br> </span>
+											<span>FrameWork llamado Bootstrap en el cual el sistema <br></span>
+											<span>obtiene un diseño mejor en botones e inputs <br></span>
+											<span>asi dandole un mejor diseño a la pagina.</span>
+
+				
+			</div>
+		</article>
+		<article class="artPHP">
+			<h1><small>Practica PHP <p> Sistema Completo con Base de Datos</small></h1>
+			<img src="img/php1.jpg" alt="">
+			<div><span id="descripcion">Descripcion:</span>En esta practica comenzamos el uso<br>
+											<span>de Base de Datos usando el servidor local XAMMP.<br></span>
+											<span>En la practica tenemos que mandar obtener los datos del <br></span>
+											<span>usuario como el nombre de usuario y contraseña, para <br></span>
+											<span>realizar esto utilizamos el lenguaje PHP y JavaScript<br></span>
+											<span>para obtener los datos y validar la entrada del usuario. <br> </span>
+											<span>Para crear la Base de datos se usa la herramienta phpmyadmin <br></span>
+											<span>que lo proporciona XAMMP.</span>
+											
+
+				
+			</div>
+		</article>
+		<article class="artPHP">
+			<h1><small>Altas Usuarios</small></h1>
+			<img src="img/php2.jpg" alt="">
+			<div><span id="descripcion">Descripcion:</span>En este ejercicio el profesor nos enseña<br>
+											<span>a como insertar datos, en este caso usuarios a una <br></span>
+											<span>Base de Datos, Utilizando las JavaScript y PHP. <br></span>
+											<span>Para que se puedan insertar datos a la Base de datos <br></span>
+											<span>utilizamos la consulta Insert obteniendo los datos por parte del  <br></span>
+											<span>usuario desde los inputs.</span>
+			</div>
+		</article>
+		<article class="artPHP">
+			<h1><small>Baja Usuarios</small></h1>
+			<img src="img/php3.jpg" alt="">
+			<div><span id="descripcion">Descripcion:</span>Con esta practica Aprendemos a eliminar los datos<br>
+											<span>de una base de datos tambien usando el lenguaje de <br></span>
+											<span>programacion JavaScript y el PHP. <br></span>
+											<span>Para poder dar de Baja a los usuarios, se necesita <br></span>
+											<span>que el usuario ingrese el nombre de usuario para que  <br></span>
+											<span> el sistema busque al usuario en la base de datos con <br></span>
+											<span> un metodo creado con JS y PHP que validasi el usuario  <br></span>
+											<span>existe dentro de la Base de Datos o no, en caso de <br></span>
+											<span>que si exista, se despliegan sus datos completos y ya se <br></span>
+											<span>puede dar de baja al usuario.</span>
+			</div>
+		</article>
+		<article class="artPHP">
+			<h1><small>Cambios</small></h1>
+			<img src="img/php4.jpg" alt="">
+			<div><span id="descripcion">Descripcion:</span>En esta practica comenzamos a usar la consulta <br>
+											<span>update esto para actualizar los datos de una base de datos<br></span>
+											<span>En este ejercicio Cambiaremos los datos los usuarios<br></span>
+											<span>usando de la misma manera el metodo de busqueda que se <br></span>
+											<span>utilizo en la practica de bajas, para asi poder encontrar<br></span>
+											<span>los datos solicitados y poder modificarlos desde el sistema <br></span>
+											<span>y no directamente en la base de datos. <br></span>
+			</div>
+		</article>
+		<article class="artPHP">
+			<h1><small>Consultas</small></h1>
+			<img src="img/php5.jpg" alt="">
+			<div><span id="descripcion">Descripcion:</span>Esta es la ultima practica que realizamos <br>
+											<span>en clase. <br></span>
+											<span>Aqui ya tenemos todos los conocimientos para hacer una <br></span>
+											<span>pagina web basica usando HTML5, CSS3, JavaScript y PHP  <br></span>
+											<span>con funciones como JQuery y Boostrap.<br></span>
+											<span>En este ultimo sistema se puede consultar los usuarios <br></span>
+											<span>que existen en la base de datos, desplegando todos sus <br></span>
+											<span>completos, se hacer con la consulta select que se usa <br></span>
+											<span>en el metodo que se programo para buscar los datos  <br></span>
+											<span>y que se uso en la practica de Bajas y Cambios.</span>
+			</div>
+		</article>
+
+
+	</section>
+</body>
+<footer>
+	Derechos Reservados&copy;
+</footer>
+</html>
+										      

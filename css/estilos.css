@@ -1,0 +1,200 @@
+body 
+{
+	font-size: 16px;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+header nav
+{
+	text-align: center;
+}
+header nav ul li
+{
+	display: inline-block;
+}
+header img
+{
+	float: right;
+	margin: -170px 15px 0px 0px;
+	width: 15%;
+}
+footer
+{
+	float: right;
+}
+/*Ocultar article*/
+article
+{
+	display: none;
+}
+#artDatosG img
+{
+	width: 40%;
+	float: left;
+}
+#artDatosG h1
+{
+	text-align: center;
+}
+#artDatosG div span
+{
+	font-weight: bold;
+	margin-left: 80px;
+}
+#menuCelular
+{
+	display: none;
+}
+
+
+/*Comienza HTML*/
+.artHTML h1
+{
+	margin-top: 50px;
+	text-align: center;
+}
+.artHTML img
+{
+	width: 50%;
+}
+.artHTML div
+{
+	float: right;
+}
+.artHTML div #descripcion
+{
+	font-weight: bold;
+	margin-left: 40px;
+}
+.artHTML div span
+{
+	margin-left: 40px;
+}
+/*Comienza Css*/
+.artCSS h1
+{
+	margin-top: 50px;
+	text-align: center;
+}
+.artCSS img
+{
+	width: 50%;
+}
+.artCSS div
+{
+	float: right;
+}
+.artCSS div #descripcion
+{
+	font-weight: bold;
+	margin-left: 40px;
+}
+.artCSS div span
+{
+	margin-left: 40px;
+}
+/*Comienza JS*/
+.artJS h1
+{
+	margin-top: 50px;
+	text-align: center;
+}
+.artJS img
+{
+	width: 50%;
+}
+.artJS div
+{
+	float: right;
+}
+.artJS div #descripcion
+{
+	font-weight: bold;
+	margin-left: 40px;
+}
+.artJS div span
+{
+	margin-left: 40px;
+}
+/*Comienza PHP*/
+.artPHP h1
+{
+	margin-top: 50px;
+	text-align: center;
+}
+.artPHP img
+{
+	width: 50%;
+}
+.artPHP div
+{
+	float: right;
+}
+.artPHP div #descripcion
+{
+	font-weight: bold;
+	margin-left: 40px;
+}
+.artPHP div span
+{
+	margin-left: 40px;
+}
+@media screen and (min-width: 320px) and (max-width: 479px){
+	body
+	{
+		width: 100%;
+	}
+	header
+	{
+		font-size: 0.5em;
+		width: 100%;
+	}
+	header img
+	{
+		display: none;
+	}
+
+	header nav
+	{
+		display: none;
+	}
+	section article
+	{
+		display: block;
+		display: none;
+		width: 100%;
+	}
+	section article img
+	{
+		margin-left: 120px;
+		display: block;
+		width: 100%;
+	}
+	#menuCelular
+	{
+		display: block;
+		font-size: 18px;
+		height: 25px;
+		width: 100%;
+	}
+	#artDatosG div span
+	{
+	margin-left: 0px;
+	}
+	.artHTML div span
+	{
+	margin-left: 0px;
+	}
+	.artCSS div span
+	{
+	margin-left: 0px;
+	}
+	.artJS div span
+	{
+	margin-left: 0px;
+	}
+	.artPHP div span
+	{
+	margin-left: 0px;
+	}
+}
